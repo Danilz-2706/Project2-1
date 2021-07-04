@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Project2_1.DataEF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project2-1.Data\Project2-1.Data.csproj" />
+    <ProjectReference Include="..\Project2-1.Infrastructure\Project2-1.Infrastructure.csproj" />
+    <ProjectReference Include="..\Project2-1.Utilities\Project2-1.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
